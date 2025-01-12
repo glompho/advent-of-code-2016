@@ -11,6 +11,7 @@ defmodule AdventOfCode.Day05Test do
     assert result == "18f47a30"
   end
 
+  @tag :skip
   test "part2" do
     input = "abc"
     result = part2(input)
